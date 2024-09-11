@@ -1,0 +1,9 @@
+package com.chs.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.chs.entity.Student;
+
+public interface StudentRepository extends JpaRepository<Student, Long> {
+
+}
